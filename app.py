@@ -70,7 +70,7 @@ st.title('Car Price Prediction')
 
 # Input fields for user data
 Year = st.number_input('Year', min_value=1900, max_value=2024)
-Present_Price = st.number_input('Present Price')
+Present_Price = st.number_input('What is the Current Showroom price in Lakhs?')
 Kms_Driven = st.number_input('Kms Driven')
 Owner = st.number_input('Owner', min_value=0)
 
